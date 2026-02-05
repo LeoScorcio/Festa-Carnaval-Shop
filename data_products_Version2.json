@@ -1,0 +1,44 @@
+[
+  {
+    "id": "p1",
+    "name": "Máscara de Carnaval Plumas",
+    "price": 29.9,
+    "description": "Máscara elegante com plumas coloridas, ideal para fantasias e bailes.",
+    "image": "https://via.placeholder.com/400x300?text=M%C3%A1scara+Carnaval"
+  },
+  {
+    "id": "p2",
+    "name": "Tiara com Glitter",
+    "price": 14.5,
+    "description": "Tiara leve com glitter biodegradável, confortável para o dia inteiro.",
+    "image": "https://via.placeholder.com/400x300?text=Tiara+Glitter"
+  },
+  {
+    "id": "p3",
+    "name": "Pintura Facial - Kit 6 Cores",
+    "price": 19.0,
+    "description": "Kit com tintas faciais atóxicas — fácil de aplicar e remover.",
+    "image": "https://via.placeholder.com/400x300?text=Kit+Pintura+Facial"
+  },
+  {
+    "id": "p4",
+    "name": "Confetes Ecológicos (500g)",
+    "price": 12.0,
+    "description": "Confetes biodegradáveis para festas ao ar livre.",
+    "image": "https://via.placeholder.com/400x300?text=Confetes+Ecol%C3%B3gicos"
+  },
+  {
+    "id": "p5",
+    "name": "Coroa de Carnaval Infantil",
+    "price": 17.5,
+    "description": "Coroa colorida para crianças, com acabamento macio.",
+    "image": "https://via.placeholder.com/400x300?text=Coroa+Infantil"
+  },
+  {
+    "id": "p6",
+    "name": "Adereços de Plástico (10 peças)",
+    "price": 9.99,
+    "description": "Conjunto com adereços como óculos, bigodes e laços para animar a festa.",
+    "image": "https://via.placeholder.com/400x300?text=Adere%C3%A7os+10+pe%C3%A7as"
+  }
+]
