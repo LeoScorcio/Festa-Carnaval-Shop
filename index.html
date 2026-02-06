@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Loja Festa & Carnaval</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">Festa & Carnaval</h1>
+      <nav>
+        <button id="open-cart" class="btn">Carrinho (<span id="cart-count">0</span>)</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main">
+    <section class="hero">
+      <h2>Produtos para animar sua festa</h2>
+      <p>Máscaras, adereços, tintas e tudo que você precisa para um Carnaval inesquecível.</p>
+    </section>
+
+    <section id="products" class="product-grid" aria-live="polite">
+      <!-- produtos carregados por JS -->
+    </section>
+  </main>
+
+  <!-- Cart Modal -->
+  <div id="cart-modal" class="modal hidden">
+    <div class="modal-content">
+      <button class="close" id="close-cart">&times;</button>
+      <h3>Seu Carrinho</h3>
+      <div id="cart-items"></div>
+      <div class="cart-footer">
+        <div class="total">Total: R$ <span id="cart-total">0.00</span></div>
+        <button id="checkout-btn" class="btn primary">Finalizar Compra (simulado)</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chatbot floating -->
+  <div id="chat-widget" class="chat-widget">
+    <button id="chat-toggle" class="chat-toggle">Chat</button>
+    <div id="chat-window" class="chat-window hidden">
+      <div class="chat-header">Assistente de Loja <button id="chat-close" class="close-small">&times;</button></div>
+      <div id="chat-messages" class="chat-messages"></div>
+      <div class="chat-input">
+        <input id="chat-input-field" placeholder="Pergunte sobre produtos, tamanhos, combinações..." />
+        <button id="chat-send" class="btn">Enviar</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Loja Festa & Carnaval — Projeto de exemplo</p>
+    </div>
+  </footer>
+
+  <script src="/shop.js"></script>
+  <script src="/chatbot.js"></script>
+</body>
+</html>
